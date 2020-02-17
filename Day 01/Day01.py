@@ -7,7 +7,6 @@ import pandas as pd
 dataset_train = pd.read_csv('credit_card_default_train.csv')
 dataset_test = pd.read_csv('credit_card_default_test.csv')
 
- 
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 #Endoing and labelling the training set
 labelencoder_1 = LabelEncoder()
